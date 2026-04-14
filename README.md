@@ -15,7 +15,7 @@
 /____|\___|_| |_|\____\___/ \__,_|\___|
 ```
 
-### A clean, minimal code editor built for developers who love clarity.
+### A clean, minimal code editor built for developers.
 
 [Download](#installation) · [Features](#features) · [Screenshots](#screenshots) · [Contributing](#contributing) · [Docs](#documentation)
 
