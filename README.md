@@ -15,7 +15,7 @@
 /____|\___|_| |_|\____\___/ \__,_|\___|
 ```
 
-### A clean, minimal code editor built for developers who love clarity.
+### A clean, minimal code editor built for developers.
 
 [Download](#installation) · [Features](#features) · [Screenshots](#screenshots) · [Contributing](#contributing) · [Docs](#documentation)
 
@@ -58,7 +58,7 @@ Whether you're editing a quick script or working through a large project, ZenCod
 
 ### Pre-built Binaries
 
-Download the latest release for your platform from the [Releases](https://github.com/your-org/zencode/releases) page.
+Download the latest release for your platform from the [Releases](https://github.com/Free-Software-People/ZenCode/releases) page.
 
 | Platform | Download                       |
 | -------- | ------------------------------ |
@@ -78,7 +78,7 @@ Download the latest release for your platform from the [Releases](https://github
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/zencode.git
+git clone https://github.com/Free-Software-People/ZenCode.git
 cd zencode
 
 # Configure (CMake)
@@ -95,7 +95,7 @@ cmake --build build
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/zencode.git
+git clone https://github.com/Free-Software-People/ZenCode.git
 cd zencode
 
 # Configure (CMake)
@@ -118,7 +118,7 @@ ZenCode ships with syntax highlighting for:
 
 `JavaScript` `TypeScript` `Python` `Rust` `Go` `C` `C++` `C#` `Java` `Ruby` `PHP` `Kotlin` `HTML` `CSS` `SCSS` `JSON` `YAML` `TOML` `Markdown` `Bash` `SQL` `GraphQL` and more...
 
-Don't see your language? [Request it](https://github.com/your-org/zencode/issues/new) or [add it yourself](#contributing)!
+Don't see your language? [Request it](https://github.com/Free-Software-People/ZenCodeissues/new) or [add it yourself](#contributing)!
 
 ---
 
