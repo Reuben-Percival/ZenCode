@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/version-1.0.0-6c63ff?style=for-the-badge" alt="Version"/>
-<img src="https://img.shields.io/badge/license-GPLv3-00d9a3?style=for-the-badge" alt="License"/>
+<img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-00d9a3?style=for-the-badge" alt="License"/>
 <img src="https://img.shields.io/badge/PRs-welcome-ff6b6b?style=for-the-badge" alt="PRs Welcome"/>
 <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge" alt="Platform"/>
 
@@ -35,22 +35,22 @@ Whether you're editing a quick script or working through a large project, ZenCod
 
 ## Features
 
-- **Syntax Highlighting** — Rich, accurate highlighting for 50+ languages powered by a custom tokenizer
-- **Dark & Light Themes** — Carefully crafted themes that are easy on the eyes, day or night
-- **Blazing Fast** — Instant startup, instant file loading — no waiting around
-- **Minimal UI** — Every element earns its place; nothing is there without a reason
-- **File Tree Explorer** — Clean sidebar navigator with fuzzy search
-- **Smart Search & Replace** — Regex-powered find and replace across single files or entire projects
-- **Integrated Terminal** — A sleek embedded terminal so you never have to leave the editor
-- **Plugin System** — Extend ZenCode with a simple, well-documented plugin API
-- **Keyboard-First** — Full command palette and shortcut system for mouse-free workflows
-- **Auto Save** — Never lose your work again
+* **Syntax Highlighting** — Rich, accurate highlighting for 50+ languages powered by a custom tokenizer
+* **Dark & Light Themes** — Carefully crafted themes that are easy on the eyes, day or night
+* **Blazing Fast** — Instant startup, instant file loading — no waiting around
+* **Minimal UI** — Every element earns its place; nothing is there without a reason
+* **File Tree Explorer** — Clean sidebar navigator with fuzzy search
+* **Smart Search & Replace** — Regex-powered find and replace across single files or entire projects
+* **Integrated Terminal** — A sleek embedded terminal so you never have to leave the editor
+* **Plugin System** — Extend ZenCode with a simple, well-documented plugin API
+* **Keyboard-First** — Full command palette and shortcut system for mouse-free workflows
+* **Auto Save** — Never lose your work again
 
 ---
 
 ## Screenshots
 
-> _Screenshots coming soon — contributors welcome!_
+> *Screenshots coming soon — contributors welcome!*
 
 ---
 
@@ -60,19 +60,19 @@ Whether you're editing a quick script or working through a large project, ZenCod
 
 Download the latest release for your platform from the [Releases](https://github.com/your-org/zencode/releases) page.
 
-| Platform | Download |
-|----------|----------|
-| Windows  | `ZenCode-Setup-x64.exe` |
+| Platform | Download                       |
+| -------- | ------------------------------ |
+| Windows  | `ZenCode-Setup-x64.exe`        |
 | Linux    | `ZenCode-linux-amd64.AppImage` |
 
 ### Build from Source
 
 #### Prerequisites
 
-- [CMake](https://cmake.org/) 3.20+
-- [Ninja](https://ninja-build.org/)
-- [Git](https://git-scm.com/)
-- A C++17-compatible compiler (MSVC 2019+ on Windows, GCC 10+ or Clang 12+ on Linux)
+* [CMake](https://cmake.org/) 3.20+
+* [Git](https://git-scm.com/)
+* [Ninja](https://ninja-build.org/) (optional but recommended for faster builds)
+* A C++17-compatible compiler (MSVC 2019+ on Windows, GCC 10+ or Clang 12+ on Linux)
 
 #### Windows
 
@@ -81,7 +81,10 @@ Download the latest release for your platform from the [Releases](https://github
 git clone https://github.com/your-org/zencode.git
 cd zencode
 
-# Configure with CMake using Ninja
+# Configure (CMake)
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+
+# OR configure with Ninja
 cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 
 # Build
@@ -95,7 +98,10 @@ cmake --build build
 git clone https://github.com/your-org/zencode.git
 cd zencode
 
-# Configure with CMake using Ninja
+# Configure (CMake)
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+
+# OR configure with Ninja
 cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 
 # Build
@@ -118,22 +124,22 @@ Don't see your language? [Request it](https://github.com/your-org/zencode/issues
 
 ## Keyboard Shortcuts
 
-| Action | Shortcut |
-|---|---|
+| Action               | Shortcut       |
+| -------------------- | -------------- |
 | Open Command Palette | `Ctrl+Shift+P` |
-| Quick Open File | `Ctrl+P` |
-| Find in File | `Ctrl+F` |
-| Find in Project | `Ctrl+Shift+F` |
-| Toggle Terminal | `` Ctrl+` `` |
-| Toggle Sidebar | `Ctrl+B` |
-| New File | `Ctrl+N` |
-| Save | `Ctrl+S` |
+| Quick Open File      | `Ctrl+P`       |
+| Find in File         | `Ctrl+F`       |
+| Find in Project      | `Ctrl+Shift+F` |
+| Toggle Terminal      | `` Ctrl+` ``   |
+| Toggle Sidebar       | `Ctrl+B`       |
+| New File             | `Ctrl+N`       |
+| Save                 | `Ctrl+S`       |
 
 ---
 
 ## Configuration
 
-ZenCode stores its config in `~/.zencode/config.json` on Linux and `%APPDATA%\ZenCode\config.json` on Windows. Here's a quick example:
+ZenCode stores its config in `~/.zencode/config.json` on Linux and `%APPDATA%\\ZenCode\\config.json` on Windows. Here's a quick example:
 
 ```json
 {
@@ -152,14 +158,15 @@ ZenCode stores its config in `~/.zencode/config.json` on Linux and `%APPDATA%\Ze
 
 ## Documentation
 
-Full documentation is available at **[zencode.dev/docs](https://zencode.dev/docs)** _(coming soon)_.
+Full documentation is available at **[zencode.dev/docs](https://zencode.dev/docs)** *(coming soon)*.
 
 Topics covered:
-- Getting Started
-- Theme Customization
-- Plugin Development
-- Keybinding Configuration
-- Language Support
+
+* Getting Started
+* Theme Customization
+* Plugin Development
+* Keybinding Configuration
+* Language Support
 
 ---
 
@@ -177,12 +184,12 @@ Contributions are what make open source great — and ZenCode welcomes them warm
 
 ### Areas we'd love help with
 
-- Translations / i18n
-- New themes
-- Plugin development
-- Documentation improvements
-- Bug fixes
-- Tests
+* Translations / i18n
+* New themes
+* Plugin development
+* Documentation improvements
+* Bug fixes
+* Tests
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
@@ -190,18 +197,24 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
 ## Roadmap
 
-- [ ] Git integration (diff viewer, blame, status)
-- [ ] LSP (Language Server Protocol) support
-- [ ] Multi-cursor editing improvements
-- [ ] Collaborative editing (live share)
-- [ ] Extension marketplace
-- [ ] AI-powered code completion
+* [ ] Git integration (diff viewer, blame, status)
+* [ ] LSP (Language Server Protocol) support
+* [ ] Multi-cursor editing improvements
+* [ ] Collaborative editing (live share)
+* [ ] Extension marketplace
+* [ ] AI-powered code completion
 
 ---
 
 ## License
 
-ZenCode is free software, released under the [GNU General Public License v3.0](LICENSE). You are free to use, modify, and distribute this software under the terms of the GPL-3.0.
+ZenCode is licensed under the **GNU General Public License v3.0 (GNU GPL v3)**.
+
+You are free to use, modify, and distribute this software under the terms of the GNU GPL v3 as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**, without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+For full license details, see the [LICENSE](LICENSE) file.
 
 ---
 
